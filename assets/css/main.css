@@ -2,9 +2,9 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
 
 :root {
-  --main: #625750;
-  --transparent: rgba(198, 188, 182, 0.5); /* rgba */
-  --transparentlight: rgba(198, 188, 182, 0.25); /* rgba .25 */
+  --main: darkturquoise;
+  --transparent: rgba(0, 206, 209, 0.5); /* rgba */
+  --transparentlight: rgba(0, 206, 209, 0.25); /* rgba .25 */
   --darkgrey: rgba(98, 87, 80, 0.75); /* rgba .75 */
   --lightgrey: rgba(98, 87, 80, 0.25); /* rgba .25 */
   --background: #e0e2e4;
@@ -2039,7 +2039,7 @@ button,
         font-size: 1.1rem;
         z-index: 1; }
       #sidebar .toggle:after {
-        background: rgba(222, 225, 226, 0.75);
+        background: var(--darkgrey);
         border-radius: 0.375em;
         content: '';
         height: 3.5em;
